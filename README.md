@@ -37,5 +37,25 @@ application up and running.
 <!-- * Services (job queues, cache servers, search engines, etc.) -->
 
 <!-- * Deployment instructions -->
+## Authors
 
-* ...
+👤 **Blessed Jason Mwanza**
+
+- Twitter: [@mwanzabj](https://twitter.com/mwanzabj)
+- LinkedIn: [Blessedjasonmwanza](https://linkedin.com/in/blessedjasonmwanza)
+- GitHub: [@blessedjasonmwanza](https://github.com/blessedjasonmwanza)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/blessedjasonmwanza/hackers-in-residence/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
