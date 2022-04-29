@@ -25,7 +25,10 @@ application up and running.
     - ```bundle install```
   
 * Database creation
- - rake db:create
+  - ```rake db:create```
+
+*  Tests
+    - ```rspec spec```
 
 * Run project
   - Run ```rails s``` and visit [http://localhost:3000/](http://localhost:3000/) in your browser!
