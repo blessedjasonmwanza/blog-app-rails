@@ -11,7 +11,7 @@ RSpec.describe 'Users', type: :request do
       get '/users'
       expect(response).to render_template(:index)
     end
-    it "renders the :show template" do
+    it 'renders the :show template' do
       get '/users/1'
       expect(response).to render_template(:show)
     end
