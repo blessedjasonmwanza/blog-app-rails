@@ -14,6 +14,15 @@ RSpec.describe "Users", type: :request do
     it "response body contains 'Users'" do
       get '/users'
       expect(response.body).to include("users")
+      expect(response.body).to include("all users")
+    end
+  end
+
+  describe "GET /users/:id" do
+    it "shows user info" do
+      get '/users/1'
+      expect(response).to have_http_status(200)
+      expect(response.body).to include("user info")
     end
   end
 end
