@@ -11,6 +11,10 @@ RSpec.describe 'Posts', type: :request do
       get '/users/1/posts'
       expect(response).to render_template(:index)
     end
+    it 'renders the :show template' do
+      get '/users/1/posts/1'
+      expect(response).to render_template(:show)
+    end
     it "response body contains 'Posts'" do
       get '/users/1/posts'
       expect(response.body).to include('Posts by user Page')
